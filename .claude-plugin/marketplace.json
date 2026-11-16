@@ -1,0 +1,11 @@
+{
+  "name": "my-mods",
+  "owner": { "name": "me" },
+  "plugins": [
+    {
+      "name": "hakyuha-dolls",
+      "source": "./hakyuha-dolls",
+      "description": "8 em doll pixel Hakyuha chạy tự do phía trên ô nhập, mỗi em một tính cách, kéo thả được."
+    }
+  ]
+}
