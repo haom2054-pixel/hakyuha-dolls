@@ -17,7 +17,7 @@ export const register: Register = on => {
       <Box>
         <Svg
           source={STRIP}
-          width={790}
+          width={760}
           height={60}
           alt="Tám em doll Hakyuha dạng pixel đang chạy nhảy phía trên ô nhập"
           isInteractive
