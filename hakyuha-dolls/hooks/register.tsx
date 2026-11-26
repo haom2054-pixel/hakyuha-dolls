@@ -2,7 +2,7 @@ import type { Register } from 'claude-code'
 
 import { STRIP } from './strip-data.js'
 
-// Dải 720x60 nằm ngay trên ô nhập: 8 em doll pixel (mỗi em 32px, bằng nút "+") chạy tự do.
+// Dải 760x112 nằm ngay trên ô nhập: 8 em doll pixel (em cao nhất 32px, bằng nút "+") chạy tự do.
 // Chuyển động và phản ứng khi rê chuột đều là CSS trong SVG, không cần script.
 export const register: Register = on => {
   on('ui.render', { component: 'AbovePrompt' }, ($, e, next) => {
@@ -18,7 +18,7 @@ export const register: Register = on => {
         <Svg
           source={STRIP}
           width={760}
-          height={60}
+          height={112}
           alt="Tám em doll Hakyuha dạng pixel đang chạy nhảy phía trên ô nhập"
           isInteractive
         />
